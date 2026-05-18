@@ -5,4 +5,4 @@ if resposta =="a":
 else:
    print("Resposta incorreta 👎")
 
-   #--Marcelo Rios--
+   #--feito por Marcelo Rios--
