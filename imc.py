@@ -1,6 +1,6 @@
 #Etapa 1 - Cálculo do IMC
-def calc_imc(imc):
-    imc = peso / (altura*altura)
+def calc_imc(peso, altura):
+    imc = peso / (altura * altura)
     return imc
 
 #Etapa 2 - Classificação do IMC
@@ -26,6 +26,6 @@ saida = mensagem(resultado_imc)
 
 print("="*50)
 print("Resultado do seu IMC")
-print(f"\n seu IMC é:{valor_imc}")
+print(f"\n seu IMC é:{valor_imc:.1f}")
 print(f"\ {saida}")
 print("="*50)
